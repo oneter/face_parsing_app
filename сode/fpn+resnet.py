@@ -47,8 +47,8 @@ class Config:
     RUN_TRAINING: bool = True
     RESUME_FROM_CHECKPOINT: Optional[str] = None
     
-    BATCH_SIZE: int = 8
-    NUM_WORKERS: int = 6
+    BATCH_SIZE: int = 16
+    NUM_WORKERS: int = 8
     LEARNING_RATE: float = 1e-4
     MAX_EPOCHS: int = 25
 
